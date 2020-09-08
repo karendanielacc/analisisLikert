@@ -18,6 +18,7 @@ default: Colors = [
 likert5: Colors = ["white", "#d8a539", "#efe0c1", "lightgray", "#bde1dd", "#5ab4ac"]
 
 likert6: Colors = [
+    "white",
     "#d8a539",
     "#dfc283",
     "#efe0c1",

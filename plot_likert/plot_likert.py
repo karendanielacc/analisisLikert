@@ -40,7 +40,7 @@ def plot_counts(
     counts: pd.DataFrame,
     scale: Scale,
     plot_percentage: bool = False,
-    colors: colors.Colors = colors.default,
+    colors: colors.Colors = colors.likert6,
     figsize=None,
     xtick_interval: typing.Optional[int] = None,
 ) -> matplotlib.axes.Axes:

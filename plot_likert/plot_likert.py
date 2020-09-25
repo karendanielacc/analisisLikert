@@ -61,7 +61,7 @@ def plot_counts(
     padding_values = (middles - center).abs()
     padded_counts = pd.concat([padding_values, counts], axis=1)
     # hack to "hide" the label for the padding
-    padded_counts = padded_counts.rename({0: "Legend"}, axis=1)
+    padded_counts = padded_counts.rename({0: "Escala"}, axis=1)
 
     # Reverse rows to keep the questions in order
     # (Otherwise, the plot function shows the last one at the top.)
@@ -105,9 +105,9 @@ def plot_counts(
     ax.set_xticks(xvalues)
     ax.set_xticklabels(xlabels)
     if plot_percentage is True:
-        ax.set_xlabel("Percentage of Responses")
+        ax.set_xlabel("Porcentaje de respuestas")
     else:
-        ax.set_xlabel("Number of Responses")
+        ax.set_xlabel("Número de respuestas")
 
     # Control legend
     plt.legend(bbox_to_anchor=(1.05, 1))

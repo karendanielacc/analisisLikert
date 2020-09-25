@@ -95,13 +95,13 @@ scores7_0: Scale = [
 ]
 
 scores7: Scale = [
-    "1 - Strongly Disagree",
-    "2 - Disagree",
-    "3 - Slightly Disagree",
-    "4 - Neither Agree nor Disagree",
-    "5 - Slightly Agree",
-    "6 - Agree",
-    "7 - Strongly Agree",
+    "1 - Totalmente no me describe",
+    "2 - No me describe",
+    "3 - Ligeramente no me describe",
+    "4 - Ni me describe ni no me describe",
+    "5 - Ligeramente me describe",
+    "6 - Me describe",
+    "7 - Totalmente me describe",
 ]
 
 raw5_0: Scale = ["0", "1", "2", "3", "4", "5"]

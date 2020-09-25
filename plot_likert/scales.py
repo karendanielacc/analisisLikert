@@ -73,6 +73,15 @@ scores6: Scale = [
     "5 - Agree",
     "6 - Strongly Agree",
 ]
+    
+scores6Espanol: Scale = [
+    "1 - Totalmente en desacuerdo",
+    "2. En desacuerdo",
+    "3. Algo en desacuerdo",
+    "4. Algo de acuerdo",
+    "5. De acuerdo",
+    "6. Totalmente de acuerdo",
+]
 
 scores7_0: Scale = [
     "0",
